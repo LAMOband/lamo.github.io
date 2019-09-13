@@ -1,0 +1,31 @@
+body {
+	background: #feebc1;
+	color: #ee2f5d;
+	font-family: sans-serif;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+div#banner {
+	font-size: 100px;
+	line-height: 67px;
+	align-content: center;
+	transform: translateX(-10%);
+	margin-top: 20px;
+}
+
+div#subbanner {
+	font-size: 16px;
+	line-height: 17px;
+	margin-bottom: 20px;
+}
+
+iframe#latestrelease {
+	border: 0;
+	width: 700px;
+	height: 905px;
+}
