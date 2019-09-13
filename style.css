@@ -29,3 +29,14 @@ iframe#latestrelease {
 	width: 700px;
 	height: 905px;
 }
+
+span#black {
+	color: #d6b57d;
+}
+
+hr {
+	border-color: #d6b57d;
+	border-style: solid;
+	border-width: .5px;
+	width: 67%;
+}
