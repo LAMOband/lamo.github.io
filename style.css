@@ -31,7 +31,7 @@ iframe#latestrelease {
 }
 
 span#black {
-	color: #d6b57d;
+	color: #b39156;;
 }
 
 hr {
@@ -46,7 +46,7 @@ div#bios {
 }
 
 div.bio {
-	height: 150px
+	height: 150px;
 }
 
 div.bio:nth-child(odd) {
@@ -59,19 +59,25 @@ div.bio:nth-child(even) {
 
 div.bio:nth-child(odd) div.name, div.bio:nth-child(odd) div.desc {
 	margin-left: 160px;
+	margin-right: 150px;
 }
 
 div.bio:nth-child(even) div.name, div.bio:nth-child(even) div.desc {
 	margin-right: 160px;
+	margin-left: 150px;
 }
 
 div.bio:nth-child(even) img {
 	transform: translateX(-150px);
 }
 
-div.bio img {
+div.bio img, div.bio hr {
 	position: absolute;
 }
+
+/* div.bio hr {
+	transform: translateY(150px);
+} */
 
 div.name, div.desc {
 	vertical-align: text-top;
