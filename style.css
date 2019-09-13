@@ -45,6 +45,14 @@ div#bios {
 	width: 65%;
 }
 
+div.bio:nth-child(odd) {
+	text-align: left;
+}
+
+div.bio:nth-child(even) {
+	text-align: right;
+}
+
 div.bio img {
 	display: inline;
 }
