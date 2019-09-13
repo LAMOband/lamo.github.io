@@ -45,6 +45,10 @@ div#bios {
 	width: 65%;
 }
 
+div.bio {
+	height: 150px
+}
+
 div.bio:nth-child(odd) {
 	text-align: left;
 }
@@ -53,6 +57,30 @@ div.bio:nth-child(even) {
 	text-align: right;
 }
 
+div.bio:nth-child(odd) div.name, div.bio:nth-child(odd) div.desc {
+	margin-left: 160px;
+}
+
+div.bio:nth-child(even) div.name, div.bio:nth-child(even) div.desc {
+	margin-right: 160px;
+}
+
+div.bio:nth-child(even) img {
+	transform: translateX(-150px);
+}
+
 div.bio img {
-	display: inline;
+	position: absolute;
+}
+
+div.name, div.desc {
+	vertical-align: text-top;
+}
+
+div.name {
+	padding-top: 2px;
+}
+
+div.desc {
+	color: #b39156;
 }
