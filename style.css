@@ -40,3 +40,7 @@ hr {
 	border-width: .5px;
 	width: 67%;
 }
+
+div.bio img {
+	display: inline;
+}
