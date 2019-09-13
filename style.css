@@ -41,6 +41,10 @@ hr {
 	width: 67%;
 }
 
+div#bios {
+	width: 65%;
+}
+
 div.bio img {
 	display: inline;
 }
