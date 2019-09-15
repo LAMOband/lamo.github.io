@@ -11,11 +11,13 @@ a {
 }
 
 div#banner {
+	position: relative;
 	font-size: 100px;
 	line-height: 67px;
 	align-content: center;
 	transform: translateX(-10%);
 	margin-top: 20px;
+	z-index: 2;
 }
 
 div#subbanner {
@@ -89,4 +91,15 @@ div.name {
 
 div.desc {
 	color: #b39156;
+}
+
+img#mordecai {
+	display: absolute;
+	position: relative;
+	z-index: -1;
+	transform: translateX(360px);
+}
+
+center#fuck {
+	transform: translateY(-111.19px);
 }
